@@ -51,27 +51,6 @@ document.querySelector('.check').addEventListener('click', function () {
       document.querySelector('.score').textContent = 0;
     }
   }
-  //  //when guess is too high
-  // else if (guess > secretNumber) {
-  //     if (score > 1) {
-  //       document.querySelector('.message').textContent = '😞 Number is to big';
-  //       score--;
-  //       document.querySelector('.score').textContent = score;
-  //     } else {
-  //       document.querySelector('.message').textContent = '😞 You lost';
-  //       document.querySelector('.score').textContent = 0;
-  //     }
-  //     //when guess is too low
-  //   } else if (guess < secretNumber) {
-  //     if (score > 1) {
-  //       document.querySelector('.message').textContent = '😞 Number is to small';
-  //       score--;
-  //       document.querySelector('.score').textContent = score;
-  //     } else {
-  //       document.querySelector('.message').textContent = '😞 You lost';
-  //       document.querySelector('.score').textContent = 0;
-  //     }
-  //   }
 });
 
 //restore everything
