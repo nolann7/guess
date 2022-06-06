@@ -11,7 +11,7 @@
 
 let secretNumber = Math.trunc(Math.random() * 20 + 1);
 
-let score = 25;
+let score = 30;
 let highscore = 0;
 document.querySelector('.score').textContent = score;
 
